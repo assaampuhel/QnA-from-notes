@@ -34,10 +34,12 @@ It retrieves the most relevant sections from your notes and generates concise, h
 python3 -m venv venv
 source venv/bin/activate      # On macOS/Linux
 venv\Scripts\activate         # On Windows
+```
 
 ### Step 2: Install dependencies
 ```bash
 pip install streamlit nltk torch scikit-learn transformers sentencepiece
+```
 
 ### Step 3: Download NLTK stopwords
 ```bash
@@ -45,12 +47,14 @@ python
 >>> import nltk
 >>> nltk.download('stopwords')
 >>> exit()
+```
 
 ---
 
 ## ▶️ Usage
 ```bash
 streamlit run app.py
+```
 
 ---
 
